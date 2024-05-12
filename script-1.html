@@ -5,17 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loop Practice 1</title>
 </head>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: dodgerblue;          
+            cursor: pointer;
+            border: 4px solid royalblue;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        p{
+            color: #fff;
+            padding: 20px 30px;
+        }
+    </style>
 <body>
+
+    <button id="click">Click me!</button>
+    <div onmouseover="mouseover(), console.log('you are inside div')" id="mouse"><p id="para">This is box</p></div>
+
     <script>
-    //    for(i = 1; i<=20; i++){
-    //         if(i % 2 === 0){
-    //             console.log(i);
-    //         }
-    //    }
+    function mouseover(){
+        document.getElementById("mouse").style.backgroundColor= 'black';
+        
+    }
 
-    // question 1
-
-    
+    let me = document.querySelector("#click");
+     me.onclick = () => {
+        console.log("btn was click");
+        let num = 25;
+        num++
+        console.log(num);
+    }
     </script>
    
 </body>
