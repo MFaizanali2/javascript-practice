@@ -4,14 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>resturent menu practice</title>
 </head>
 
-<body>
-    <script>
-        
-    </script>
+<body>   
 
+    <h1>Welcome to your resturant</h1>
+    <h1 id="item"></h1>
+    <input type="text" placeholder="plz order some food" id="food">
+    <button onclick="mydish()">Order Now</button>
 </body>
-
 </html>
+
+
+<script>
+    let resturent = ["Tikka","BBQ","Biryani","zinger","Karahi","Brost"];
+
+    function mydish(){
+        let items = document.getElementById("item");
+        for(let i = 0; i <=items.length; i++){
+            items.innerText <= `${i + 1} ${resturent[i]} \n` 
+        }
+    }
+    mydish();
+    
+</script>
