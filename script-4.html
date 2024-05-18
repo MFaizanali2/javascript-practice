@@ -10,9 +10,15 @@
 <body>   
 
     <h1>Welcome to your resturant</h1>
-    <h1 id="item"></h1>
+    <h1>menu of the restaurent</h1>
+    <h1 id="item">tikka</h1>
+    <h1 id="item">bbq</h1>
+    <h1 id="item">biryani</h1>
+    <h1 id="item">zinger</h1>
+    <h1 id="item">karahi</h1>
+    <h1 id="item">broast</h1>
     <input type="text" placeholder="plz order some food" id="food">
-    <button onclick="mydish()">Order Now</button>
+    <button onclick="userorder()">Order Now</button>
 </body>
 </html>
 
@@ -22,10 +28,26 @@
 
     function mydish(){
         let items = document.getElementById("item");
-        for(let i = 0; i <=items.length; i++){
+        for(let i = 0; i < resturent.length; i++){
             items.innerText <= `${i + 1} ${resturent[i]} \n` 
+           
         }
     }
     mydish();
+
+    function userorder(){
+        
+        let userfood = document.querySelector("#food");
+        for(let i=0; i < resturent.length; i++){
+            // console.log(resturent[i]); 
+            if(resturent[i] === userfood.value){
+                console.log("available");
+            }
+            else{
+                console.log("This food is not our menu");
+            }
+            break;
+        }
+    }
     
 </script>
