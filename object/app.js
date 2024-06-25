@@ -54,5 +54,3 @@
 //   for(let keys in cars){
 //     console.log(cars[keys].famousModel)
 //   }
-let body = document.querySelector("body");
-body.style.backgroundColor = "aqua"
