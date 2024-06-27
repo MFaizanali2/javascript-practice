@@ -58,12 +58,13 @@
 
 let input = document.getElementById("input");
 let output = document.querySelector("#output");
-let get = [];
+let getdata = [];
 
 
 function add(){
     event.preventDefault();
-   for(let i=0; i<=get.length; i++)
+   for(let i=0; i<getdata.length; i++)
     output.innerHTML += `
-    <p>${get.push(input.value)}</p>`
+    <p>${getdata[i]}</p>
+    console.log(${getdata[i]})`
 }
