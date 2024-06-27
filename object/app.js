@@ -56,15 +56,15 @@
 //   }
 
 
-let input = document.getElementById("input");
-let output = document.querySelector("#output");
-let getdata = [];
+// let input = document.getElementById("input");
+// let output = document.querySelector("#output");
+// let getdata = [];
 
 
-function add(){
-    event.preventDefault();
-   for(let i=0; i<getdata.length; i++)
-    output.innerHTML += `
-    <p>${getdata[i]}</p>
-    console.log(${getdata[i]})`
-}
+// function add(){
+//     event.preventDefault();
+//    for(let i=0; i<getdata.length; i++)
+//     output.innerHTML += `
+//     <p>${getdata[i]}</p>
+//     console.log(${getdata[i]})`
+// }
