@@ -56,3 +56,14 @@
 //   }
 
 
+let input = document.getElementById("input");
+let output = document.querySelector("#output");
+let get = [];
+
+
+function add(){
+    event.preventDefault();
+    console.log(get.push(input.value));
+    console.log(get);
+    
+}
