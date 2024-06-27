@@ -63,7 +63,7 @@ let get = [];
 
 function add(){
     event.preventDefault();
-    console.log(get.push(input.value));
-    console.log(get);
-    
+   for(let i=0; i<=get.length; i++)
+    output.innerHTML += `
+    <p>${get.push(input.value)}</p>`
 }
