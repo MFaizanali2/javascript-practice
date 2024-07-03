@@ -69,11 +69,11 @@
 //     console.log(${getdata[i]})`
 // }
 
-let arr = [44,87,5,67,89,34,90];
-localstorage.setItem("number",JSON.stringify(arr))
+// let arr = [44,87,5,67,89,34,90];
+// localstorage.setItem("number",JSON.stringify(arr))
 
-let abc = document.getElementById("abc");
-let localdata = JSON.parse(localStorage.getItem("number"));
-for(let i=0; i<localdata; i++){
-    abc.innerHTML += `<li>${localdata[i]}</li>`
-}
+// let abc = document.getElementById("abc");
+// let localdata = JSON.parse(localStorage.getItem("number"));
+// for(let i=0; i<localdata; i++){
+//     abc.innerHTML += `<li>${localdata[i]}</li>`
+// }
