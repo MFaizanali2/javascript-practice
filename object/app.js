@@ -90,37 +90,37 @@
 // obj.field = "CS"
 // console.log(obj) 
 
-let main = document.querySelector('.main');
-const arrofObj = [
-{ name : "Sadiq" , age:26},
-{name:"Abdullah",age:34},
-{name:"Faizan",age:34},
-{name:"Ali",age:34},
-{name:"Salman",age:34},
-{name:"Sami",age:34},
-{name:"Ahsan",age:34},
-{name:"Izam",age:34},
-{name:"Sallu",age:34},
-{name:"Jimmy",age:34},
-{name:"Annonmus",age:34},
-{name:"Sherry",age:34},
-{name:"Aliyan",age:34},
-{name:"Tanvir",age:34},
-{name:"Abid",age:34},
-{name:"Abdullah",age:34},
-{name:"Abdullah",age:34},
-]
-console.log(arrofObj[1].item2)
-console.log(arrofObj[0].item)
+// let main = document.querySelector('.main');
+// const arrofObj = [
+// { name : "Sadiq" , age:26},
+// {name:"Abdullah",age:34},
+// {name:"Faizan",age:34},
+// {name:"Ali",age:34},
+// {name:"Salman",age:34},
+// {name:"Sami",age:34},
+// {name:"Ahsan",age:34},
+// {name:"Izam",age:34},
+// {name:"Sallu",age:34},
+// {name:"Jimmy",age:34},
+// {name:"Annonmus",age:34},
+// {name:"Sherry",age:34},
+// {name:"Aliyan",age:34},
+// {name:"Tanvir",age:34},
+// {name:"Abid",age:34},
+// {name:"Abdullah",age:34},
+// {name:"Abdullah",age:34},
+// ]
+// console.log(arrofObj[1])
+// console.log(arrofObj[10])
 
 
 
 
- for(let i=0; i<arrofObj.length; i++){
-let keys = Object.keys(arrofObj[i]);
-    main.innerHTML += `<tr>
-    <td>${arrofObj[i].name}</td><br>
-    <td>${arrofObj[i].age}</td><br>
+//  for(let i=0; i<arrofObj.length; i++){
+// let keys = Object.keys(arrofObj[i]);
+//     main.innerHTML += `<tr>
+//     <td>${arrofObj[i].name}</td><br>
+//     <td>${arrofObj[i].age}</td><br>
 
-    </tr>`
-}
+//     </tr>`
+// }
