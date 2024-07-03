@@ -78,14 +78,49 @@
 //     abc.innerHTML += `<li>${localdata[i]}</li>`
 // }
 
- let obj = {
-    name : "Faizan",
-    age : 19,
-    institute: "SMIT",
+//  let obj = {
+//     name : "Faizan",
+//     age : 19,
+//     institute: "SMIT",
 
- }
-// obj.institute = "formen";
-obj.institute = "Computer Skills";
-// delete obj.age;
-obj.field = "CS"
-console.log(obj) 
+//  }
+// // obj.institute = "formen";
+// obj.institute = "Computer Skills";
+// // delete obj.age;
+// obj.field = "CS"
+// console.log(obj) 
+
+let main = document.querySelector('.main');
+const arrofObj = [
+{ name : "Sadiq" , age:26},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+{name:"Abdullah",age:34},
+]
+console.log(arrofObj[1].item2)
+console.log(arrofObj[0].item)
+
+
+
+
+ for(let i=0; i<arrofObj.length; i++){
+let keys = Object.keys(arrofObj[i]);
+    main.innerHTML += `<tr>
+    <td>${arrofObj[i].name}</td>
+    <td>${arrofObj[i].age}</td>
+
+    </tr>`
+}
