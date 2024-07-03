@@ -91,25 +91,31 @@
 // console.log(obj) 
 
 // let main = document.querySelector('.main');
-// const arrofObj = [
-// { name : "Sadiq" , age:26},
-// {name:"Abdullah",age:34},
-// {name:"Faizan",age:34},
-// {name:"Ali",age:34},
-// {name:"Salman",age:34},
-// {name:"Sami",age:34},
-// {name:"Ahsan",age:34},
-// {name:"Izam",age:34},
-// {name:"Sallu",age:34},
-// {name:"Jimmy",age:34},
-// {name:"Annonmus",age:34},
-// {name:"Sherry",age:34},
-// {name:"Aliyan",age:34},
-// {name:"Tanvir",age:34},
-// {name:"Abid",age:34},
-// {name:"Abdullah",age:34},
-// {name:"Abdullah",age:34},
-// ]
+const arrofObj = [
+{ name : "Sadiq" , age:26},
+{name:"Abdullah",age:34},
+{name:"Faizan",age:44},
+{name:"Ali",age:54},
+{name:"Salman",age:4},
+{name:"Sami",age:3},
+{name:"Ahsan",age:14},
+{name:"Izam",age:29},
+{name:"Sallu",age:31},
+{name:"Jimmy",age:22},
+{name:"Annonmus",age:25},
+{name:"Sherry",age:35},
+{name:"Aliyan",age:38},
+{name:"Tanvir",age:39},
+{name:"Abid",age:12},
+{name:"Salim",age:27},
+{name:"Salman",age:17},
+]
+
+for (keys in arrofObj){
+    console.log(arrofObj[keys].name)
+    console.log(arrofObj[keys].age)
+}
+
 // console.log(arrofObj[1])
 // console.log(arrofObj[10])
 
