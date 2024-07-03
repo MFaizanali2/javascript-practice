@@ -79,10 +79,13 @@
 // }
 
  let obj = {
-    name : Faizan,
+    name : "Faizan",
     age : 19,
-    institute: SMIT,
-    
- }
+    institute: "SMIT",
 
- 
+ }
+// obj.institute = "formen";
+obj.institute = "Computer Skills";
+// delete obj.age;
+obj.field = "CS"
+console.log(obj) 
