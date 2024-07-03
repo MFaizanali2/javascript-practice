@@ -77,3 +77,12 @@
 // for(let i=0; i<localdata; i++){
 //     abc.innerHTML += `<li>${localdata[i]}</li>`
 // }
+
+ let obj = {
+    name : Faizan,
+    age : 19,
+    institute: SMIT,
+    
+ }
+
+ 
