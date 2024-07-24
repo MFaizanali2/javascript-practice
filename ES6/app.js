@@ -6,4 +6,4 @@ function add(a){
 function sum(){
     console.log("hello billi")
 }
-sum(add())
+sum()
