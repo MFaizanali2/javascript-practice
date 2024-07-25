@@ -81,7 +81,8 @@ console.log(existing)
 
 if(existing){
     alert("email already use")
-    para
+    para.innerHTML = existing;
 }else{
     alert("stored data")
+    para.innerHTML = existing;
 }
