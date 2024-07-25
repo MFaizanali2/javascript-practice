@@ -86,3 +86,13 @@
 //     alert("stored data")
 //     para.innerHTML = "Succesfully store data";
 // }
+
+
+
+
+let data = [4, 6, 9, 3, 8];
+
+let some = data.some((item) => {
+    return item < 10
+})
+console.log(some)
