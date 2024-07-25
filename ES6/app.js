@@ -41,17 +41,17 @@ let obj = [
 
 
 
-let data = [45, 56, 7, 23, 9, 6, 99, 103, 167, 75]
+// let data = [45, 56, 7, 23, 9, 6, 99, 103, 167, 75]
 
-let returndata = data.filter((item) => {
-    return item < 10
-}) 
-console.log(returndata);
+// let returndata = data.filter((item) => {
+//     return item < 10
+// }) 
+// console.log(returndata);
 
-let returndata1 = data.find((item) => {
-    return item > 10
-}) 
-console.log(returndata1);
+// let returndata1 = data.find((item) => {
+//     return item > 10
+// }) 
+// console.log(returndata1);
 
 
 
