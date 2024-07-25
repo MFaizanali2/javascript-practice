@@ -52,3 +52,31 @@ let obj = [
 //     return item > 10
 // }) 
 // console.log(returndata1);
+
+
+
+let userinfo = [
+    {
+        name : "faizan",
+        email : "faizan@gmail.com"
+    },
+    {
+        name : "sami",
+        email : "sami@gmail.com"
+    },
+    {
+        name : "ali",
+        email : "ali@gmail.com"
+    },
+];
+
+let email = prompt("enter email");
+let existing = userinfo.find((item) => {
+    return item.email === email;
+})
+
+if(existing){
+    alert("email already use")
+}else{
+    alert("stored data")
+}
