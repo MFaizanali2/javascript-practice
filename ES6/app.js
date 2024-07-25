@@ -27,5 +27,6 @@ let obj = [
 ];
 
 obj.filter((sum) =>{
-    console.log(sum.name)
+    return sum.name ;
+    console.log(sum)
 })
