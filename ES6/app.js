@@ -26,16 +26,16 @@ let obj = [
     }
 ];
 
-// let abc = obj.filter((sum) =>{
-//     return sum.name === "faizan" ;
-    // console.log(sum)
-// });
-// console.log(abc);
+let abc = obj.filter((sum) =>{
+    return sum.name === "faizan" ;
+    console.log(sum)
+});
+console.log(abc);
 
-// let data = obj.find((sum) => {
-//     return sum.name === "faizan"
-// });
-// console.log(data)
+let data = obj.find((sum) => {
+    return sum.name === "faizan"
+});
+console.log(data)
 
 
 
