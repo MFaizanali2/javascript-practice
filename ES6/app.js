@@ -24,4 +24,8 @@ let obj = [
         name : "ali",
         age :24,
     }
-]
+];
+
+obj.filter((sum) =>{
+    console.log(sum.name)
+})
