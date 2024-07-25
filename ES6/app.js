@@ -74,6 +74,7 @@ let email = prompt("enter email");
 let existing = userinfo.find((item) => {
     return item.email === email;
 })
+console.log(existing)
 
 if(existing){
     alert("email already use")
