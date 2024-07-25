@@ -40,3 +40,7 @@ for (let i = 0; i < 100; i += 5) {
 // for(var i=5; i<=10; i++){
 //     console.log(i)
 // }
+
+
+
+// <!-- https://github.com/Nooder/javascript-in-depth -->
