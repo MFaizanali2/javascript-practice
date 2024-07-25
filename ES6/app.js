@@ -55,34 +55,34 @@
 
 
 
-let userinfo = [
-    {
-        name : "faizan",
-        email : "faizan@gmail.com"
-    },
-    {
-        name : "sami",
-        email : "sami@gmail.com"
-    },
-    {
-        name : "ali",
-        email : "ali@gmail.com"
-    },
-];
+// let userinfo = [
+//     {
+//         name : "faizan",
+//         email : "faizan@gmail.com"
+//     },
+//     {
+//         name : "sami",
+//         email : "sami@gmail.com"
+//     },
+//     {
+//         name : "ali",
+//         email : "ali@gmail.com"
+//     },
+// ];
 
 
-let para = document.getElementById("para");
+// let para = document.getElementById("para");
 
-let email = prompt("enter email");
-let existing = userinfo.find((item) => {
-    return item.email === email;
-})
-console.log(existing)
+// let email = prompt("enter email");
+// let existing = userinfo.find((item) => {
+//     return item.email === email;
+// })
+// console.log(existing)
 
-if(existing){
-    alert("email already use")
-    para.innerHTML = "Email has been used";
-}else{
-    alert("stored data")
-    para.innerHTML = "Succesfully store data";
-}
+// if(existing){
+//     alert("email already use")
+//     para.innerHTML = "Email has been used";
+// }else{
+//     alert("stored data")
+//     para.innerHTML = "Succesfully store data";
+// }
