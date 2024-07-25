@@ -11,20 +11,20 @@
 
 
 
-// let obj = [
-//     {
-//         name : "faizan",
-//         age :20,
-//     },
-//     {
-//         name : "anus",
-//         age :22,
-//     },
-//     {
-//         name : "ali",
-//         age :24,
-//     }
-// ];
+let obj = [
+    {
+        name : "faizan",
+        age :20,
+    },
+    {
+        name : "anus",
+        age :22,
+    },
+    {
+        name : "ali",
+        age :24,
+    }
+];
 
 // let abc = obj.filter((sum) =>{
 //     return sum.name === "faizan" ;
