@@ -12,5 +12,16 @@
 
 
 let obj = [
-    
+    {
+        name : "faizan",
+        age :20,
+    },
+    {
+        name : "anus",
+        age :22,
+    },
+    {
+        name : "ali",
+        age :24,
+    }
 ]
